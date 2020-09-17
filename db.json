@@ -6,6 +6,13 @@
             "invoice": {
                 "calculatePayDiscountOnTax": false
             }
+        },
+        {
+            "customerId": "2",
+            "customerName": "test2",
+            "invoice": {
+                "calculatePayDiscountOnTax": false
+            }
         }
     ]
 }
