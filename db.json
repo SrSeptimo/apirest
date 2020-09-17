@@ -1,7 +1,6 @@
 {
     "1": [
         {
-            "companyId": "EN",
             "customerId": "1",
             "customerName": "test",
             "invoice": {
