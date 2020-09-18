@@ -11,7 +11,7 @@
             "customerId": "2",
             "countryCode": "test",
             "payment": {
-                "iben": "test"
+                "iban": "test"
             }
         }
     ]
