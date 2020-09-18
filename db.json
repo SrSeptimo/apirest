@@ -9,9 +9,9 @@
         },
         {
             "customerId": "2",
-            "customerName": "test2",
-            "invoice": {
-                "calculatePayDiscountOnTax": false
+            "countryCode": "test",
+            "payment": {
+                "iben": "test"
             }
         }
     ]
