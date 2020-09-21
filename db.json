@@ -1,16 +1,19 @@
-[
-    "1": {
-        "customerId": "1",
-        "customerName": "test",
-        "invoice": {
-            "calculatePayDiscountOnTax": false
+{
+    "1": [
+        {
+            "customerId": "1",
+            "customerName": "test",
+            "invoice": {
+                "calculatePayDiscountOnTax": false
+            }
+        },
+        {
+            "customerId": "2",
+            "countryCode": "test",
+            "payment": {
+                "iben": "test"
+                "iban": "test"
+            }
         }
-    },
-    {
-        "customerId": "2",
-        "countryCode": "test",
-        "payment": {
-            "iban": "test"
-        }
-    }
-]
+    ]
+}
