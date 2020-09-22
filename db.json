@@ -1,18 +1,288 @@
 {
     "1": [
         {
-            "customerId": "1",
-            "customerName": "test",
-            "invoice": {
-                "calculatePayDiscountOnTax": false
-            }
-        },
+  "customerName": "siete",
+  "companyRegistrationNumber": "",
+  "countryCode": "GB",
+  "externalReference": "1",
+  "aliasName": "BW",
+  "companyId": "EN",
+  "customerGroupId": "1",
+  "customerId": "1",
+  "invoice": {
+    "calculatePayDiscountOnTax": true,
+    "checkCreditOnHeadOffice": false,
+    "creditLimit": 7,
+    "currencyCode": "GBP",
+    "discountCode": "",
+    "hasFixedCurrency": true,
+    "hasFixedPaymentTerms": true,
+    "hasFixedTaxSystem": false,
+    "headOffice": "1",
+    "isSundryCustomer": false,
+    "languageCode": "EN",
+    "maxCreditDays": 0,
+    "message": "",
+    "paymentPlanTemplateCode": "",
+    "paymentTermsId": "30",
+    "supplierId": "",
+    "taxSystem": ""
+  },
+  "lastUpdated": {
+    "updatedAt": "2020-09-18T17:44:31.000",
+    "updatedBy": "SYSEN"
+  },
+  "notes": "",
+  "payment": {
+    "bankAccount": "00000000019",
+    "bankClearingCode": "",
+    "debtCollectionCode": "IK1",
+    "expiryDate": "1900-01-01T00:00:00.000",
+    "iban": "",
+    "otherAccount": "",
+    "payMethod": "CH",
+    "payRecipient": "",
+    "postalAccount": "00000000019",
+    "status": "Active",
+    "swift": ""
+  },
+  "vatRegistrationNumber": "",
+  "contactPoints": [
+    {
+      "address": {
+        "countryCode": "GB",
+        "place": "London",
+        "postcode": "",
+        "province": "",
+        "streetAddress": "Which witch?"
+      },
+      "additionalContactInfo": {
+        "contactPerson": "",
+        "contactPosition": "Witch",
+        "eMail": "",
+        "eMailCc": "",
+        "gtin": "",
+        "url": ""
+      },
+      "contactPointType": "1",
+      "lastUpdated": {
+        "updatedAt": "2004-06-24T10:10:00.000",
+        "updatedBy": "SYSEN"
+      },
+      "phoneNumbers": {
+        "telephone1": "9856765",
+        "telephone2": "",
+        "telephone3": "",
+        "telephone4": "",
+        "telephone5": "",
+        "telephone6": "",
+        "telephone7": ""
+      },
+      "sortOrder": 0
+    }
+  ],
+  "customFieldGroups": {
+    "mfa": {
+      "name": "",
+      "age": 0,
+      "link_fx": "www.vg.no"
+    },
+    "fftest": []
+  },
+  "relatedValues": [
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "AO",
+      "relationName": "MARKET",
+      "relatedValue": "EUROPE"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "N8",
+      "relationName": "BUSINESS",
+      "relatedValue": "IND"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "D3",
+      "relationName": "DELMET",
+      "relatedValue": "AIR"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "D2",
+      "relationName": "DELTERM",
+      "relatedValue": "CIF"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "GD",
+      "relationName": "PRIOR",
+      "relatedValue": "1"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "AJ",
+      "relationName": "CUSTGRP",
+      "relatedValue": "1"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "A21",
+      "relationName": "DISCOUNT",
+      "relatedValue": "10"
+    }
+  ]
+},
         {
-            "customerId": "2",
-            "countryCode": "test",
-            "payment": {
-                "iban": "test"
-            }
-        }
+  "customerName": "Cannonball Run Cars",
+  "companyRegistrationNumber": "",
+  "countryCode": "GB",
+  "externalReference": "2",
+  "aliasName": "CRC",
+  "companyId": "EN",
+  "customerGroupId": "66",
+  "customerId": "2",
+  "invoice": {
+    "calculatePayDiscountOnTax": true,
+    "checkCreditOnHeadOffice": false,
+    "creditLimit": 0,
+    "currencyCode": "GBP",
+    "discountCode": "",
+    "hasFixedCurrency": false,
+    "hasFixedPaymentTerms": false,
+    "hasFixedTaxSystem": false,
+    "headOffice": "2",
+    "isSundryCustomer": false,
+    "languageCode": "EN",
+    "maxCreditDays": 0,
+    "message": "",
+    "paymentPlanTemplateCode": "",
+    "paymentTermsId": "30",
+    "supplierId": "",
+    "taxSystem": ""
+  },
+  "lastUpdated": {
+    "updatedAt": "2005-04-11T15:07:00.000",
+    "updatedBy": "TNL EXPANDED"
+  },
+  "notes": "",
+  "payment": {
+    "bankAccount": "00000000019",
+    "bankClearingCode": "",
+    "debtCollectionCode": "IK1",
+    "expiryDate": "1900-01-01T00:00:00.000",
+    "iban": "",
+    "otherAccount": "",
+    "payMethod": "CH",
+    "payRecipient": "",
+    "postalAccount": "00000000019",
+    "status": "Active",
+    "swift": ""
+  },
+  "vatRegistrationNumber": "",
+  "contactPoints": [
+    {
+      "address": {
+        "countryCode": "GB",
+        "place": "",
+        "postcode": "",
+        "province": "London",
+        "streetAddress": "Holy row 8"
+      },
+      "additionalContactInfo": {
+        "contactPerson": "",
+        "contactPosition": "Priest",
+        "eMail": "",
+        "eMailCc": "",
+        "gtin": "",
+        "url": ""
+      },
+      "contactPointType": "1",
+      "lastUpdated": {
+        "updatedAt": "2004-06-24T10:11:00.000",
+        "updatedBy": "SYSEN"
+      },
+      "phoneNumbers": {
+        "telephone1": "+089+08+08+0",
+        "telephone2": "",
+        "telephone3": "",
+        "telephone4": "",
+        "telephone5": "",
+        "telephone6": "",
+        "telephone7": ""
+      },
+      "sortOrder": 0
+    }
+  ],
+  "customFieldGroups": {
+    "mfa": {
+      "name": "",
+      "age": 0,
+      "link_fx": "www.vg.no"
+    },
+    "fftest": []
+  },
+  "relatedValues": [
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "C0",
+      "relationName": "RESNO",
+      "relatedValue": "53105050"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "GD",
+      "relationName": "PRIOR",
+      "relatedValue": "1"
+    },
+    {
+      "percentage": 100,
+      "dateFrom": "1900-01-01T00:00:00.000",
+      "dateTo": "2099-12-31T00:00:00.000",
+      "unitValue": 0,
+      "relationGroup": "",
+      "relationId": "AJ",
+      "relationName": "CUSTGRP",
+      "relatedValue": "WF"
+    }
+  ]
+}
     ]
 }
