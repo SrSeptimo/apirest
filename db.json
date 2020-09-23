@@ -1,284 +1,41 @@
 {
     "1": [
         {
-    "aliasName": "BW",
-    "companyId": "EN",
-    "companyRegistrationNumber": "",
-    "countryCode": "GB",
-    "customerGroupId": "1",
-    "customerId": "1",
-    "customerName": "test",
-    "externalReference": "1",
-    "note": "",
-    "vatRegistrationNumber": "",
-    "workflowState": "",
-    "invoice": {
-      "calculatePayDiscountOnTax": false,
-      "checkCreditOnHeadOffice": false,
-      "creditLimit": 8,
-      "currencyCode": "GBP",
-      "discountCode": "",
-      "hasFixedCurrency": true,
-      "hasFixedPaymentTerms": true,
-      "hasFixedTaxSystem": false,
-      "headOffice": "1",
-      "isSundryCustomer": false,
-      "languageCode": "EN",
-      "maxCreditDays": 0,
-      "message": "",
-      "paymentPlanTemplateCode": "",
-      "paymentTermsId": "31",
-      "supplierId": "",
-      "taxSystem": ""
-    },
-    "payment": {
-      "bankAccount": "00000000019",
-      "bankClearingCode": "",
-      "debtCollectionCode": "IK1",
-      "expiryDate": "1900-01-01T00:00:00.000",
-      "iban": "",
-      "otherAccount": "",
-      "paymentMethod": "CH",
-      "payRecipient": "",
-      "postalAccount": "00000000019",
-      "status": "N",
-      "swift": ""
-    },
-    "lastUpdated": {
-      "updatedAt": "2020-09-22T13:22:51.000",
-      "updatedBy": "SYSEN"
-    },
-    "relatedValues": [
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "1",
-        "relationGroup": "",
-        "relationId": "GD",
-        "relationName": "PRIOR",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "EUROPE",
-        "relationGroup": "",
-        "relationId": "AO",
-        "relationName": "MARKET",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "IND",
-        "relationGroup": "",
-        "relationId": "N8",
-        "relationName": "BUSINESS",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "AIR",
-        "relationGroup": "",
-        "relationId": "D3",
-        "relationName": "DELMET",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "CIF",
-        "relationGroup": "",
-        "relationId": "D2",
-        "relationName": "DELTERM",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "1",
-        "relationGroup": "",
-        "relationId": "AJ",
-        "relationName": "CUSTGRP",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "10",
-        "relationGroup": "",
-        "relationId": "A21",
-        "relationName": "DISCOUNT",
-        "unitValue": 0
-      }
-    ],
-    "contactPoints": [
-      {
-        "contactPointType": "1",
-        "address": {
-          "countryCode": "US",
-          "place": "NY",
-          "postcode": "",
-          "province": "",
-          "streetAddress": "Which witch?"
-        },
-        "phoneNumbers": {
-          "telephone1": "9856765",
-          "telephone2": "",
-          "telephone3": "",
-          "telephone4": "",
-          "telephone5": "",
-          "telephone6": "",
-          "telephone7": ""
-        },
-        "additionalContactInfo": {
-          "contactPerson": "",
-          "contactPosition": "Witch",
-          "eMail": "",
-          "eMailCc": "",
-          "gtin": "",
-          "url": ""
-        },
-        "lastUpdated": {
-          "updatedAt": "2020-09-22T13:22:51.000",
-          "updatedBy": "SYSEN"
-        }
-      }
-    ],
-    "customFieldGroups": {
-      "fftest": [],
-      "mfa": {
-        "age": 0,
-        "link_fx": "News",
-        "name": ""
-      }
-    }
+  "customerId": "1",
+  "customerName": "test",
+  "vatRegistrationNumber": "",
+  "payment": {
+    "status": "N"
   },
-        {
-    "aliasName": "CRC",
-    "companyId": "EN",
-    "companyRegistrationNumber": "",
-    "countryCode": "GB",
-    "customerGroupId": "66",
-    "customerId": "2",
-    "customerName": "Cannonball Run Cars",
-    "externalReference": "2",
-    "note": "",
-    "vatRegistrationNumber": "",
-    "workflowState": "",
-    "invoice": {
-      "calculatePayDiscountOnTax": true,
-      "checkCreditOnHeadOffice": false,
-      "creditLimit": 0,
-      "currencyCode": "GBP",
-      "discountCode": "",
-      "hasFixedCurrency": false,
-      "hasFixedPaymentTerms": false,
-      "hasFixedTaxSystem": false,
-      "headOffice": "2",
-      "isSundryCustomer": false,
-      "languageCode": "EN",
-      "maxCreditDays": 0,
-      "message": "",
-      "paymentPlanTemplateCode": "",
-      "paymentTermsId": "30",
-      "supplierId": "",
-      "taxSystem": ""
-    },
-    "payment": {
-      "bankAccount": "00000000019",
-      "bankClearingCode": "",
-      "debtCollectionCode": "IK1",
-      "expiryDate": "1900-01-01T00:00:00.000",
-      "iban": "",
-      "otherAccount": "",
-      "paymentMethod": "CH",
-      "payRecipient": "",
-      "postalAccount": "00000000019",
-      "status": "N",
-      "swift": ""
-    },
-    "lastUpdated": {
-      "updatedAt": "2005-04-11T15:07:00.000",
-      "updatedBy": "TNL EXPANDED"
-    },
-    "relatedValues": [
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "1",
-        "relationGroup": "",
-        "relationId": "GD",
-        "relationName": "PRIOR",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "53105050",
-        "relationGroup": "",
-        "relationId": "C0",
-        "relationName": "RESNO",
-        "unitValue": 0
-      },
-      {
-        "dateFrom": "1900-01-01T00:00:00.000",
-        "dateTo": "2099-12-31T23:59:59.000",
-        "percentage": 100,
-        "relatedValue": "WF",
-        "relationGroup": "",
-        "relationId": "AJ",
-        "relationName": "CUSTGRP",
-        "unitValue": 0
+  "contactPoints": [
+    {
+      "address": {
+        "countryCode": "US",
+        "place": "NY",
+        "postcode": "",
+        "province": "",
+        "streetAddress": "Which witch?"
       }
-    ],
-    "contactPoints": [
-      {
-        "contactPointType": "1",
-        "address": {
-          "countryCode": "GB",
-          "place": "",
-          "postcode": "",
-          "province": "London",
-          "streetAddress": "Holy row 8"
-        },
-        "phoneNumbers": {
-          "telephone1": "+089+08+08+0",
-          "telephone2": "",
-          "telephone3": "",
-          "telephone4": "",
-          "telephone5": "",
-          "telephone6": "",
-          "telephone7": ""
-        },
-        "additionalContactInfo": {
-          "contactPerson": "",
-          "contactPosition": "Priest",
-          "eMail": "",
-          "eMailCc": "",
-          "gtin": "",
-          "url": ""
-        },
-        "lastUpdated": {
-          "updatedAt": "2004-06-24T10:11:00.000",
-          "updatedBy": "SYSEN"
-        }
-      }
-    ],
-    "customFieldGroups": {
-      "fftest": [],
-      "mfa": {}
     }
-  }
-    ]
+  ]
+},{
+  "customerId": "2",
+  "customerName": "Cannonball Run Cars",
+  "vatRegistrationNumber": "",
+  "payment": {
+    "status": "N"
+  },
+  "contactPoints": [
+    {
+      "address": {
+        "countryCode": "GB",
+        "place": "",
+        "postcode": "",
+        "province": "London",
+        "streetAddress": "Holy row 8"
+      }
+    }
+  ]
+}
+        ]
 }
