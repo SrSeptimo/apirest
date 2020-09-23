@@ -2,19 +2,19 @@
     "1": [
         {
   "customerId": "1",
-  "customerName": "test",
-  "vatRegistrationNumber": "",
+  "customerName": "test1",
+  "vatRegistrationNumber": "7",
   "payment": {
-    "status": "N"
+    "status": "P"
   },
   "contactPoints": [
     {
       "address": {
-        "countryCode": "US",
-        "place": "NY",
-        "postcode": "",
-        "province": "",
-        "streetAddress": "Which witch?"
+        "countryCode": "USadfa",
+        "place": "NYda",
+        "postcode": "12",
+        "province": "dfa",
+        "streetAddress": "yes si"
       }
     }
   ]
